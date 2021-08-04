@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+.main_container {
+    display: flex;
+    flex:8;
+    width: 100%;    
+}
+
+.menu_esquerda {
+    display: flex;
+    flex:1.1;
+    width: 15.5rem;
+    border: 1px solid var(--quaternary);
+    background:linear-gradient(to bottom,rgba(10,22,30, 90%),rgba(22, 160, 252, 0.9));
+    height: 51.9rem;
+}
+
+#admin_menu_esquerda {
+    display: flex;
+    flex: 5;
+    background: rgba(12, 34, 48, 0.9);
+    align-items: center;
+}
+
+#admin_menu_esquerda a {
+    flex: 4;
+}
+
+#admin_menu_esquerda img {
+    height: 1.0rem;
+    flex: 1;
+    
+}
+
+.style_li:hover {
+    cursor: pointer;
+    border-left: 0.2rem solid var(--tertiary); 
+}
+
+
+.style_li {
+    padding:0.75rem;
+    background-color:var(--primary);
+    margin-bottom: 0.3rem;
+    list-style: none;
+}
+
+.style_li a {
+    margin-left: 1.2rem;
+}
+
+.menu_esquerda li a {
+    color: var(--tertiary);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.menu_esquerda li {
+    padding:0.55rem;
+    background-color:var(--primary);
+}
+
+.menu_esquerda ul {
+    width: 100%;
+}
+
+/* CSS da table */
+
+section {
+    flex: 7;
+    padding: 3rem;
+    background-color: #f6f6f6;
+
+}
+
+.cabecalho {
+    border-bottom: 0.2rem solid var(--quaternary);
+
+}
+
+.cabecalho h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #1a374c;
+    font-weight: bold;
+}
+
+.table_card {
+    margin-top: 1rem;
+    height: 90%;
+    width: 100%;
+    background-color: var(--tertiary);
+    -webkit-box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.2);
+}
+
+.table_container {
+    position: relative;
+    overflow: auto;
+    height: 3.5rem;
+    top: 2rem;
+    left: 2rem;
+    width: 27rem;
+    display: flex;
+    
+}
+
+.menu_table {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    margin-right: 0.35rem;
+
+}
+
+
+.menu_table select {
+    padding: 0.14rem;
+    width: 11.3rem;
+    border: none;
+    color: var(--fifithnary);
+    margin-right: 0.5rem;
+    margin-left: 0.1rem;
+    background-color: var(--tertiary);
+    -webkit-box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0.1px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0.2rem;
+    
+}
+
+
+.menu_table span {
+    color: var(--fifithnary); 
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.table_container span {
+    margin-bottom: 0.5rem;
+    
+}
+
+.table_input_container {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;  
+}
+
+.table_input_container span {
+    color: var(--fifithnary);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.5rem;
+    
+}
+
+.input_button input {
+    border: none;
+    padding: 0.2rem;
+    margin-right: 0.4rem;
+    margin-left: 1.6rem;
+    -webkit-box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0.1px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0.2rem;
+}
+
+
+.input_button button {
+    border: none;
+    width: 1.2rem;
+    padding: 0.2rem;
+    background-color: var(--tertiary);
+    cursor: pointer;
+    -webkit-box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0.1px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0.2rem;
+    color: var(--fifithnary);
+    font-weight: bold;
+}

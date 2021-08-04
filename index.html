@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <title>Locais de Trabalho</title>
+    <!-------------Links google fonts para adicionar font's personalizadas------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Controle de Locais de Trabalho</h1> 
+            <div class="menu_direita">
+                <span id="linha_vertical">
+                    <img src="img/home-solid.svg" alt="">
+
+                </span>
+                <span class="menu_admin_user">
+                    <img src="img/user-regular.svg" alt="">
+                    <div>
+                        <p id="usuario_menu">Usuário</p>
+                        <p id="administrador_menu">Administrador</p>
+                    </div>
+                </span>
+            </div>
+        </header>
+        <div class="main_container">
+            <aside class="menu_esquerda">
+                <ul>
+                    <li id="admin_menu_esquerda">
+                        <img src="img/cog-solid.svg">
+                        <a href="#">Administração</a>
+                    </li>
+                    <li class="style_li"><a href="#">Administradores</a></li>
+                    <li class="style_li"><a href="#">Áreas</a></li>
+                    <li class="style_li"><a href="#">Locais de Trabalho</a></li>
+                    <li class="style_li"><a href="#">Habilidades</a></li>
+                    <li class="style_li"><a href="#">Log</a></li>
+                    <li class="style_li"><a href="#">Responsáveis</a></li>
+                </ul>
+            </aside>
+            <section class="">
+                <div class="cabecalho">
+                    <h1>Locais de Trabalho</h1>
+                </div>
+                <div class="table_card">
+                    <div class="table_container">
+                        <div class="menu_table">
+                            <span>Prédio</span>
+                            <select id="predios">
+                                
+                            </select>
+                        </div>
+                        <div class="table_input_container">
+                            <span>Local de Trabalho</span>
+                            <div class="input_button">
+                                <input type="text" id="campo">
+                                <button OnClick="clicando()">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table_crud">
+                        <table class="table_style" id="test"> 
+                            <thead class="table_head">
+                            <tr id="style_tr">
+                                <th >Prédio</th>
+                                <th >Local de Trabalho</th>
+                                <th ></th>
+                            </tr>
+                            </thead>
+                            <tbody id="valor">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-------------Adicionando arquivo JS no HTML------------------>
+    <script src="js/localTrabalho.js"></script>
+</body>
+</html>

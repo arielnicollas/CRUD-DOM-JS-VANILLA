@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+
+
+.table_crud { 
+    position: relative;
+    overflow: auto;
+    height: 3.5rem;
+    top: 2rem;
+    left: 2rem;
+    width: 27rem;
+    height: 32rem;
+}
+
+#selectid {
+    width: 11.3rem;
+    border: none;
+    color: var(--fifithnary);
+    margin-right: 0.5rem;
+    margin-left: 0.1rem;
+    background-color: var(--tertiary);
+    -webkit-box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0.1px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0.2rem;
+}
+
+#inputid {
+    width: 11.3rem;
+    border: none;
+    color: var(--fifithnary);
+    margin-right: 0.5rem;
+    margin-left: 0.1rem;
+    background-color: var(--tertiary);
+    -webkit-box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0.1px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 1px 0.2px 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0.2rem;
+
+}
+
+
+#style_tr th {
+    width: 0.79rem;
+    color: white;
+
+}
+
+.table_head {
+    width: 27rem;
+    border: 1px solid red;
+}
+
+
+
+.table_style {
+    border: 1px solid rgb(235, 233, 233);
+    width: 100%; 
+    border-collapse: collapse;
+    border-radius: 2rem;
+}
+
+.table_style th  {
+    border:1px solid rgb(235, 233, 233);
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    background-color: var(--fifithnary);
+    height: 1.8rem !important;
+}
+
+
+.table_style td {
+    border:1px solid rgb(235, 233, 233);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    text-align: center;
+    color:  #1a374c;
+    font-weight: bold;
+    width: 44%;
+    
+}
+
+.pen-solid {
+    width: 1.0rem;
+    cursor: pointer;
+}
+
+.trash-alt-regular {
+    width: 1.0rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}

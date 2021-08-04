@@ -1,0 +1,78 @@
+:root{
+    --primary:rgba(10,22,30);
+    --secondary:rgba(49,55,59);
+    --tertiary:rgba(255,255,255);
+    --quaternary:grey;
+    --fifithnary:#1a374c;
+}
+
+* {
+    padding:0;
+    margin:0;    
+}
+
+html {
+    background-color: #f3f6fd;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    height: 5rem;
+    background:linear-gradient(to right,rgba(10,22,30, 100%),rgba(49,55,59, 60%)),no-repeat, url(/img/admin-small.png);
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.header h1 {
+    padding: 1rem;
+    color: var(--tertiary);
+    font-size: 1.38rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu_direita {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding:1rem;
+    width: 20rem;
+}
+
+#linha_vertical {
+    border-right: 0.15rem solid var(--quaternary);
+}
+
+.menu_admin_user {
+    display: flex;
+    align-items: center;
+    flex: 5rem;
+    color: var(--tertiary);
+}
+
+.menu_admin_user p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+}
+
+.menu_admin_user img {
+    flex: 2rem;
+}
+
+.menu_admin_user div {
+    flex: 3rem;
+}
+
+#usuario_menu {
+    font-size: 1.3rem;
+  
+}
+
+.menu_direita span img {
+    height: 2rem;
+    width: 5rem;
+}
