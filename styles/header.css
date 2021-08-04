@@ -22,7 +22,7 @@ html {
     align-items: center;
     flex: 1;
     height: 5rem;
-    background:linear-gradient(to right,rgba(10,22,30, 100%),rgba(49,55,59, 60%)),no-repeat, url(/img/admin-small.png);
+    background:linear-gradient(to right,rgba(10,22,30, 100%),rgba(49,55,59, 60%)),no-repeat, url('../img/admin-small.png');
     background-size: cover;
     width: 100%;
     
